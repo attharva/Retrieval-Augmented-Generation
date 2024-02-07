@@ -19,7 +19,7 @@ CORS(app)
 convo = Conversation()
 conversations = {}
 interval = 300  
-file_path = '/home/bhargavclick/cse535-p3/data/conversations.json'
+file_path = '#'
 
 def save_conversations_to_file(interval, file_path):
     # while True:
