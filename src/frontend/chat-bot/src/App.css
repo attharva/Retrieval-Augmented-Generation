@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.user-message {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  text-align: right;
+}
+
+.bot-message {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.active-conversation {
+  background-color: #0078D4; /* Blue background for active conversation */
+  color: red; /* White text */
+  border: none;
+  text-align: left;
+  padding: 10px 15px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+}
+
+/* Style for hover effect on inactive buttons */
+.sidebar button:not(.active-conversation):hover {
+  background-color: #f0f0f0;
+}
+
+.sidebar {
+  background-color: #000000; /* Light gray background */
+  width: 250px; /* Sidebar width */
+  height: 100vh; /* Full-height */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  left: 0;
+  top: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.sidebar button {
+  padding: 10px 15px;
+  text-align: left;
+  border: none;
+  background: none;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background-color: #ddd; /* Add hover effect to buttons */
+}
+
+.App-header {
+  margin-left: 250px; /* Add a left margin to the header */
+}
+

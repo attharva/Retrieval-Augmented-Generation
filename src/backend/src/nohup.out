@@ -1,0 +1,499 @@
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:10<01:49, 10.96s/it]
+ 18%|█▊        | 2/11 [00:16<01:07,  7.51s/it]
+ 27%|██▋       | 3/11 [00:36<01:47, 13.42s/it]
+ 36%|███▋      | 4/11 [00:38<01:01,  8.73s/it]
+ 45%|████▌     | 5/11 [00:39<00:37,  6.20s/it]
+ 55%|█████▍    | 6/11 [00:45<00:30,  6.12s/it]
+ 64%|██████▎   | 7/11 [00:47<00:18,  4.63s/it]
+ 73%|███████▎  | 8/11 [00:51<00:13,  4.52s/it]
+ 82%|████████▏ | 9/11 [00:52<00:06,  3.47s/it]
+ 91%|█████████ | 10/11 [00:54<00:02,  2.88s/it]
+100%|██████████| 11/11 [00:57<00:00,  2.97s/it]
+100%|██████████| 11/11 [00:57<00:00,  5.23s/it]load INSTRUCTOR_Transformer
+max_seq_length  512
+setting up vector store. This might take a while ...
+Vector Store has been set up
+ * Serving Flask app 'server'
+ * Debug mode: on
+
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:10<01:48, 10.88s/it]
+ 18%|█▊        | 2/11 [00:15<01:07,  7.48s/it]
+ 27%|██▋       | 3/11 [00:36<01:47, 13.46s/it]
+ 36%|███▋      | 4/11 [00:38<01:01,  8.72s/it]
+ 45%|████▌     | 5/11 [00:39<00:37,  6.20s/it]
+ 55%|█████▍    | 6/11 [00:45<00:30,  6.15s/it]
+ 64%|██████▎   | 7/11 [00:47<00:18,  4.65s/it]
+ 73%|███████▎  | 8/11 [00:51<00:13,  4.55s/it]
+ 82%|████████▏ | 9/11 [00:52<00:06,  3.48s/it]
+ 91%|█████████ | 10/11 [00:54<00:02,  2.88s/it]
+100%|██████████| 11/11 [00:57<00:00,  2.98s/it]
+100%|██████████| 11/11 [00:57<00:00,  5.23s/it]
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+ * Detected change in '/home/bhargavclick/cse535-p3/backend/src/conversation.py', reloading
+load INSTRUCTOR_Transformer
+max_seq_length  512
+setting up vector store. This might take a while ...
+Vector Store has been set up
+ * Restarting with stat
+
+generation_config.json:   0%|          | 0.00/347 [00:00<?, ?B/s]
+generation_config.json: 100%|██████████| 347/347 [00:00<00:00, 43.4kB/s]
+
+tokenizer_config.json:   0%|          | 0.00/1.15k [00:00<?, ?B/s]
+tokenizer_config.json: 100%|██████████| 1.15k/1.15k [00:00<00:00, 640kB/s]
+
+vocab.json:   0%|          | 0.00/127k [00:00<?, ?B/s]
+vocab.json: 100%|██████████| 127k/127k [00:00<00:00, 3.27MB/s]
+
+merges.txt:   0%|          | 0.00/62.9k [00:00<?, ?B/s]
+merges.txt: 100%|██████████| 62.9k/62.9k [00:00<00:00, 3.32MB/s]
+
+added_tokens.json:   0%|          | 0.00/16.0 [00:00<?, ?B/s]
+added_tokens.json: 100%|██████████| 16.0/16.0 [00:00<00:00, 8.74kB/s]
+
+special_tokens_map.json:   0%|          | 0.00/772 [00:00<?, ?B/s]
+special_tokens_map.json: 100%|██████████| 772/772 [00:00<00:00, 436kB/s]
+
+tokenizer.json:   0%|          | 0.00/310k [00:00<?, ?B/s]
+tokenizer.json: 100%|██████████| 310k/310k [00:00<00:00, 15.0MB/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:11<01:51, 11.16s/it]
+ 18%|█▊        | 2/11 [00:15<01:06,  7.41s/it]
+ 27%|██▋       | 3/11 [00:36<01:46, 13.31s/it]
+ 36%|███▋      | 4/11 [00:37<01:00,  8.65s/it]
+ 45%|████▌     | 5/11 [00:39<00:36,  6.14s/it]
+ 55%|█████▍    | 6/11 [00:45<00:30,  6.07s/it]
+ 64%|██████▎   | 7/11 [00:46<00:18,  4.59s/it]
+ 73%|███████▎  | 8/11 [00:51<00:13,  4.49s/it]
+ 82%|████████▏ | 9/11 [00:52<00:06,  3.45s/it]
+ 91%|█████████ | 10/11 [00:53<00:02,  2.86s/it]
+100%|██████████| 11/11 [00:57<00:00,  3.03s/it]
+100%|██████████| 11/11 [00:57<00:00,  5.21s/it]
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+ * Detected change in '/home/bhargavclick/cse535-p3/backend/src/server.py', reloading
+load INSTRUCTOR_Transformer
+max_seq_length  512
+setting up vector store. This might take a while ...
+Vector Store has been set up
+ * Restarting with stat
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:11<01:53, 11.31s/it]
+ 18%|█▊        | 2/11 [00:16<01:07,  7.49s/it]
+ 27%|██▋       | 3/11 [00:37<01:48, 13.61s/it]
+ 36%|███▋      | 4/11 [00:38<01:01,  8.81s/it]
+ 45%|████▌     | 5/11 [00:40<00:37,  6.25s/it]
+ 55%|█████▍    | 6/11 [00:46<00:30,  6.15s/it]
+ 64%|██████▎   | 7/11 [00:47<00:18,  4.65s/it]
+ 73%|███████▎  | 8/11 [00:51<00:13,  4.53s/it]
+ 82%|████████▏ | 9/11 [00:53<00:06,  3.46s/it]
+ 91%|█████████ | 10/11 [00:54<00:02,  2.87s/it]
+100%|██████████| 11/11 [00:58<00:00,  3.04s/it]
+100%|██████████| 11/11 [00:58<00:00,  5.28s/it]
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+ * Detected change in '/home/bhargavclick/cse535-p3/backend/src/server.py', reloading
+load INSTRUCTOR_Transformer
+max_seq_length  512
+setting up vector store. This might take a while ...
+Vector Store has been set up
+ * Restarting with stat
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:11<01:51, 11.15s/it]
+ 18%|█▊        | 2/11 [00:16<01:07,  7.45s/it]
+ 27%|██▋       | 3/11 [00:36<01:46, 13.34s/it]
+ 36%|███▋      | 4/11 [00:37<01:00,  8.65s/it]
+ 45%|████▌     | 5/11 [00:39<00:36,  6.14s/it]
+ 55%|█████▍    | 6/11 [00:45<00:30,  6.06s/it]
+ 64%|██████▎   | 7/11 [00:46<00:18,  4.59s/it]
+ 73%|███████▎  | 8/11 [00:51<00:13,  4.48s/it]
+ 82%|████████▏ | 9/11 [00:52<00:06,  3.44s/it]
+ 91%|█████████ | 10/11 [00:53<00:02,  2.84s/it]
+100%|██████████| 11/11 [00:57<00:00,  3.03s/it]
+100%|██████████| 11/11 [00:57<00:00,  5.21s/it]
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+load INSTRUCTOR_Transformer
+max_seq_length  512
+setting up vector store. This might take a while ...
+Vector Store has been set up
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:11<01:52, 11.26s/it]
+ 18%|█▊        | 2/11 [00:16<01:07,  7.46s/it]
+ 27%|██▋       | 3/11 [00:36<01:47, 13.45s/it]
+ 36%|███▋      | 4/11 [00:38<01:01,  8.73s/it]
+ 45%|████▌     | 5/11 [00:39<00:37,  6.19s/it]
+ 55%|█████▍    | 6/11 [00:45<00:30,  6.14s/it]
+ 64%|██████▎   | 7/11 [00:47<00:18,  4.65s/it]
+ 73%|███████▎  | 8/11 [00:51<00:13,  4.56s/it]
+ 82%|████████▏ | 9/11 [00:52<00:06,  3.50s/it]
+ 91%|█████████ | 10/11 [00:54<00:02,  2.89s/it]
+100%|██████████| 11/11 [00:57<00:00,  3.07s/it]
+100%|██████████| 11/11 [00:57<00:00,  5.27s/it]load INSTRUCTOR_Transformer
+max_seq_length  512
+setting up vector store. This might take a while ...
+Vector Store has been set up
+ * Serving Flask app 'server'
+ * Debug mode: on
+
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.188.0.2:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:11<01:50, 11.03s/it]
+ 18%|█▊        | 2/11 [00:15<01:05,  7.32s/it]
+ 27%|██▋       | 3/11 [00:36<01:46, 13.29s/it]
+ 36%|███▋      | 4/11 [00:37<01:00,  8.63s/it]
+ 45%|████▌     | 5/11 [00:39<00:36,  6.13s/it]
+ 55%|█████▍    | 6/11 [00:45<00:30,  6.08s/it]
+ 64%|██████▎   | 7/11 [00:46<00:18,  4.60s/it]
+ 73%|███████▎  | 8/11 [00:51<00:13,  4.51s/it]
+ 82%|████████▏ | 9/11 [00:52<00:06,  3.46s/it]
+ 91%|█████████ | 10/11 [00:53<00:02,  2.87s/it]
+100%|██████████| 11/11 [00:57<00:00,  3.03s/it]
+100%|██████████| 11/11 [00:57<00:00,  5.21s/it]
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+106.51.173.100 - - [08/Dec/2023 19:00:24] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:00:24] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:00:24] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:00:24] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:00:25] "GET /conversations HTTP/1.1" 200 -
+
+No chat template is defined for this tokenizer - using the default template for the BlenderbotTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+106.51.173.100 - - [08/Dec/2023 19:00:32] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:00:57] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:00:57] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:00:58] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:00:58] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:01:08] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:01:14] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:02:36] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:02:36] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:02:37] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:02:37] "GET /conversations HTTP/1.1" 200 -
+ * Detected change in '/home/bhargavclick/cse535-p3/backend/src/server.py', reloading
+load INSTRUCTOR_Transformer
+max_seq_length  512
+setting up vector store. This might take a while ...
+Vector Store has been set up
+
+Answer:
+
+ Hello! How are you doing today? I just got back from a walk with my dog.
+
+Answer:
+
+ I am glad to hear that. What is going on in your life that is making you feel that way?
+ * Restarting with stat
+
+  0%|          | 0/11 [00:00<?, ?it/s]
+  9%|▉         | 1/11 [00:11<01:51, 11.11s/it]
+ 18%|█▊        | 2/11 [00:15<01:06,  7.36s/it]
+ 27%|██▋       | 3/11 [00:36<01:46, 13.28s/it]
+ 36%|███▋      | 4/11 [00:37<01:00,  8.63s/it]
+ 45%|████▌     | 5/11 [00:39<00:36,  6.12s/it]
+ 55%|█████▍    | 6/11 [00:45<00:30,  6.05s/it]
+ 64%|██████▎   | 7/11 [00:46<00:18,  4.60s/it]
+ 73%|███████▎  | 8/11 [00:51<00:13,  4.51s/it]
+ 82%|████████▏ | 9/11 [00:52<00:06,  3.46s/it]
+ 91%|█████████ | 10/11 [00:53<00:02,  2.85s/it]
+100%|██████████| 11/11 [00:57<00:00,  3.03s/it]
+100%|██████████| 11/11 [00:57<00:00,  5.20s/it]
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+106.51.173.100 - - [08/Dec/2023 19:04:34] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:04:34] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:04:34] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:04:35] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:04:42] "OPTIONS /chat HTTP/1.1" 200 -
+
+No chat template is defined for this tokenizer - using the default template for the BlenderbotTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+106.51.173.100 - - [08/Dec/2023 19:04:50] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:05:02] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:05:09] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:05:34] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:05:41] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:06:02] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:06:10] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:06:41] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:06:41] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:06:42] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:06:42] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:08:24] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:08:24] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:08:25] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:08:25] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:08:27] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:08:27] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:08:28] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:08:28] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:09:32] "[33mGET / HTTP/1.1[0m" 404 -
+106.51.173.100 - - [08/Dec/2023 19:09:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+106.51.173.100 - - [08/Dec/2023 19:09:39] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:12:53] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:12:53] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:12:54] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:12:54] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:13:06] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:13:06] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:13:06] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:13:07] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:13:15] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:13:15] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:13:15] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:13:15] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:14:21] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:14:21] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:14:22] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:14:22] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:15:56] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:16:01] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:16:13] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [08/Dec/2023 19:16:20] "POST /chat HTTP/1.1" 200 -
+174.234.254.172 - - [08/Dec/2023 19:17:36] "OPTIONS /conversations HTTP/1.1" 200 -
+174.234.254.172 - - [08/Dec/2023 19:17:36] "OPTIONS /conversations HTTP/1.1" 200 -
+174.234.254.172 - - [08/Dec/2023 19:17:37] "GET /conversations HTTP/1.1" 200 -
+174.234.254.172 - - [08/Dec/2023 19:17:37] "GET /conversations HTTP/1.1" 200 -
+/Users/user/projects/InformationRetreival/final_project/cse535-p3
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Vector store already exists
+Vector Store has been set up
+ * Serving Flask app 'server'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.188.0.2:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+27.131.170.106 - - [09/Dec/2023 13:54:18] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:54:18] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:54:19] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:54:19] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:54:24] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:54:24] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:54:36] "OPTIONS /chat HTTP/1.1" 200 -
+
+No chat template is defined for this tokenizer - using the default template for the BlenderbotTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+27.131.170.106 - - [09/Dec/2023 13:54:44] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:54:58] "OPTIONS /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:55:05] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:55:13] "OPTIONS /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:55:23] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:55:50] "OPTIONS /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:55:57] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:56:14] "OPTIONS /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 13:56:21] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:14:00] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:14:00] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:14:00] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:14:01] "GET /conversations HTTP/1.1" 200 -
+ * Detected change in '/home/bhargavclick/cse535-p3/backend/src/server.py', reloading
+/Users/user/projects/InformationRetreival/final_project/cse535-p3
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Vector store already exists
+Vector Store has been set up
+
+Answer:
+
+ Hello, how are you? I just got back from visiting a friend in Italy.
+
+Answer:
+
+ His name is Roscoe. He's my best friend and I've known him for a long time.
+
+Answer:
+
+ He lives in the suburbs of Atlanta, Georgia. I live in the city.
+
+Answer:
+
+ Yes, he was born and raised there. He moved to the US when he was very young.
+
+
+[1m> Entering new RetrievalQA chain...[0m
+
+[1m> Finished chain.[0m
+set()
+
+Answer:
+
+Alice in Wonderland is a famous children's novel written by Lewis Carroll. It tells the story of a young girl named Alice who falls down a rabbit hole into a whimsical and nonsensical world called Wonderland. In Wonderland, she encounters various peculiar characters and goes on a series of adventures. The book is known for its imaginative and surreal storytelling, as well as its exploration of themes such as identity, reality, and growing up. It has been adapted into numerous films, plays, and other forms of media.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+27.131.170.106 - - [09/Dec/2023 16:16:18] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:16:18] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:16:18] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:16:18] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:16:32] "OPTIONS /chat HTTP/1.1" 200 -
+
+No chat template is defined for this tokenizer - using the default template for the BlenderbotTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+27.131.170.106 - - [09/Dec/2023 16:16:40] "POST /chat HTTP/1.1" 200 -
+ * Detected change in '/home/bhargavclick/cse535-p3/backend/src/server.py', reloading
+/Users/user/projects/InformationRetreival/final_project/cse535-p3
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Vector store already exists
+Vector Store has been set up
+
+Answer:
+
+ Hey there, how are you? I just got back from walking my dog, how about you?
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+/Users/user/projects/InformationRetreival/final_project/cse535-p3
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Vector store already exists
+Vector Store has been set up
+/Users/user/projects/InformationRetreival/final_project/cse535-p3
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Vector store already exists
+Vector Store has been set up
+ * Serving Flask app 'server'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.188.0.2:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+27.131.170.106 - - [09/Dec/2023 16:45:05] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:45:05] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:45:06] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:45:06] "GET /conversations HTTP/1.1" 200 -
+ * Detected change in '/home/bhargavclick/cse535-p3/backend/src/conversation_state.py', reloading
+/Users/user/projects/InformationRetreival/final_project/cse535-p3
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Vector store already exists
+Vector Store has been set up
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+ * Detected change in '/home/bhargavclick/cse535-p3/backend/src/server.py', reloading
+/Users/user/projects/InformationRetreival/final_project/cse535-p3
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Vector store already exists
+Vector Store has been set up
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+27.131.170.106 - - [09/Dec/2023 16:53:44] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:53:44] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:53:44] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 16:53:45] "GET /conversations HTTP/1.1" 200 -
+/Users/user/projects/InformationRetreival/final_project/cse535-p3
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Vector store already exists
+Vector Store has been set up
+Error decoding JSON from file. Ensure the file is correctly formatted.
+Traceback (most recent call last):
+  File "server.py", line 112, in <module>
+    load_conversations_from_file(file_path)
+  File "server.py", line 40, in load_conversations_from_file
+    conversations_data = data['conversations']
+KeyError: 'conv_id'
+python3: can't open file 'manage.py': [Errno 2] No such file or directory
+/home/bhargavclick/cse535-p3
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Vector store already exists
+Vector Store has been set up
+umm {'topic_distribution': {'small talk': 2, 'Pride and Prejudice': 1}, 'topic_hit': {'Pride and Prejudice': 1}, 'topic_miss': {}, 'error_count': 0, 'chitchat_state': {'dialogue': ['hello botto', 'I love Jane Austen. Wbu']}, 'qa_state': {'dialogue': ['Whos the protagonist of Pride and Prejudice?']}, 'conversation_history': [{'query': 'hello botto', 'response': ' Hello! How are you doing today? I just got back from the grocery store. ', 'timestamp': '2023-12-09T19:58:24.435095', 'duration': 7.518384, 'feedback': 0}, {'query': 'I love Jane Austen. Wbu', 'response': ' I love her too. She was an English novelist, poet, and screenwriter.', 'timestamp': '2023-12-09T19:58:51.162473', 'duration': 7.587083, 'feedback': 0}, {'query': 'Whos the protagonist of Pride and Prejudice?', 'response': 'The protagonist of Pride and Prejudice is Elizabeth Bennet.', 'timestamp': '2023-12-09T19:59:09.348899', 'duration': 3.537015, 'feedback': 0}]}
+umm {'topic_distribution': {'small talk': 3}, 'topic_hit': {}, 'topic_miss': {}, 'error_count': 0, 'chitchat_state': {'dialogue': ['Hello I got a question I wanna ask you', 'What novels are you knowledgeable on?', 'whos the protagonist of the Harry Potter series then?']}, 'qa_state': {}, 'conversation_history': [{'query': 'Hello I got a question I wanna ask you', 'response': " What is the question?  I'm curious to know what it is.  What is it?", 'timestamp': '2023-12-09T20:00:34.404634', 'duration': 6.979212, 'feedback': 0}, {'query': 'What novels are you knowledgeable on?', 'response': ' I am a big fan of the Harry Potter series. I have read all of them.', 'timestamp': '2023-12-09T20:00:56.111376', 'duration': 7.185183, 'feedback': 0}, {'query': 'whos the protagonist of the Harry Potter series then?', 'response': " I think it's JK Rowling, she's the one who created the series.", 'timestamp': '2023-12-09T20:01:19.499281', 'duration': 6.843725, 'feedback': 0}]}
+ * Serving Flask app 'server'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.188.0.2:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 705-226-042
+27.131.170.106 - - [09/Dec/2023 21:21:17] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:21:17] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:21:17] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:21:18] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:22:00] "OPTIONS /chat HTTP/1.1" 200 -
+
+No chat template is defined for this tokenizer - using the default template for the BlenderbotTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+27.131.170.106 - - [09/Dec/2023 21:22:09] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:22:23] "OPTIONS /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:22:30] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:22:48] "OPTIONS /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:22:56] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:23:20] "OPTIONS /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:23:29] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:23:50] "OPTIONS /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:24:00] "POST /chat HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:24:34] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:24:34] "OPTIONS /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:24:35] "GET /conversations HTTP/1.1" 200 -
+27.131.170.106 - - [09/Dec/2023 21:24:35] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:26:22] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:26:22] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:26:23] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:26:23] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:27:06] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:27:06] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:27:07] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:27:07] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:28:25] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:28:26] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:28:57] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:28:58] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:29:55] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:29:56] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:30:41] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:30:48] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:30:58] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:30:59] "GET /conversations HTTP/1.1" 200 -
+183.136.225.9 - - [09/Dec/2023 21:33:41] "[33mGET / HTTP/1.1[0m" 404 -
+183.136.225.9 - - [09/Dec/2023 21:33:42] "[33mGET / HTTP/1.1[0m" 404 -
+183.136.225.9 - - [09/Dec/2023 21:33:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+183.136.225.9 - - [09/Dec/2023 21:33:43] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+106.51.173.100 - - [09/Dec/2023 21:34:39] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:34:40] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:34:44] "GET /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:35:17] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:35:25] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:35:39] "OPTIONS /chat HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:35:44] "POST /chat HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:36:11] "OPTIONS /conversations HTTP/1.1" 200 -
+106.51.173.100 - - [09/Dec/2023 21:36:11] "GET /conversations HTTP/1.1" 200 -
