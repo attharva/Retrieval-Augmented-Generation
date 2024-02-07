@@ -5,7 +5,7 @@ from transformers import pipeline, Conversation
 import os
 
 from vectorstore import VectorStore
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '#'
 
 class ZeroShotChatClassifier:
 
@@ -57,7 +57,7 @@ class ChitChatModel:
 class QAModel:
     def __init__(self):
         
-        vec_store = VectorStore(root_dir='/home/bhargavclick/cse535-p3')
+        vec_store = VectorStore(root_dir='#')
         print('Vector Store has been set up')
 
         self.qa = RetrievalQA.from_chain_type(
